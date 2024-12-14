@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./reset.css">
     
+    
 </head>
 
 <body class="light-theme">
@@ -47,7 +48,7 @@
         <section class="container" id="section-stranger-trailer">
             <!--<iframe src="https://www.youtube.com/embed/SJ9EFhQ3ANQ?controls=0" frameborder="0"></iframe>-->
             <div class="video-frame" aria-hidden="true">
-                <iframe width="460" height="215" src="https://www.youtube.com/embed/pWHSdQkvwgk?si=HXNN0xVNTeaTU45p"
+                <iframe width="450" height="215" src="https://www.youtube.com/embed/pWHSdQkvwgk?si=HXNN0xVNTeaTU45p"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -65,50 +66,60 @@
         <section id="section-stranger-gallery">
             <div class="container section-text">
                 <h2>A segunda série mais assistida da Netflix</h2>
-                <ul>
-                    <li class="gallery-container invert-element">
+                <ul class="gallery-container" role="gallery">
+                    <li class="gallery-image invert-element">
                         <img src="assets/images/content/serie-image-01.png" alt="">
                     </li>
-                    <li class="gallery-container invert-element">
-                        <img src="serie-image-02.png" alt="">
+                    <li class="gallery-image invert-element">
+                        <img src="assets/images/content/serie-image-02.png" alt="">
                     </li>
-                    <li class="gallery-container invert-element">
-                        <img src="serie-image-03.png" alt="">
+                    <li class="gallery-image invert-element">
+                        <img src="assets/images/content/serie-image-03.png" alt="">
                     </li>
                 </ul>
             </div>
         </section>
 
-        <section>
+        <section id="section-stranger-form">
+            <h1>o clube Dungeons & Dragons</h1>
+            <p>Para deter Vecna, os heróis de Stranger Things também precisam de você. 
+                O Clube de D&D mais famoso de Hawkings está com vagas abertas para sua próxima aventura. Se você é destemido, gosta de desafios e não tem medo de rodar o D20, chegou a hora de se inscrever para fazer parte da nova campanha. </p>
             <div class="form container">
+
+                <h1>entre para o clube de d&d e tenha experiências de <color style="color: red;">outro mundo </color>.</h1>
+               
+
                 <form>
-                    <label for="txtName"></label>
+                    <label for="txtName">Nome Completo</label>
                     <input type="text" name="name" id="txtName">
 
-                    <label for="txtEmail"></label>
+                    <label for="txtEmail">E-mail</label>
                     <input type="email" name="email" id="txtEmail">
 
-                    <label for="txtLevel"></label>
+                    <label for="txtLevel">Level</label>
                     <input type="text" name="level" id="txtLevel">
 
-                    <label for="txtCharacter"></label>
-                    <textarea name="character" cols="30" rows="10" id="txtCharacter">
+                    <label for="txtCharacter">Personagem</label>
+                    <textarea name="character" cols="30" rows="10" id="txtCharacter"></textarea>
 
                     <button type="button" id="btnSubs">Me inscrever</button>
                 </form>
-                <script type="module" src="assets/js/main.js"></script>
+                
             </div>
+            
+        </section>
+
+        <section>
+            <p>
+                Projeto construído para fins didáticos, com o objetivo de colocar em prática os conhecimentos de HTML, CSS e
+                JavaScript aprendidos na DIO._
+            </p>
+            <img src="assets/images/footer/logo.svg" alt="">
         </section>
 
     </main>
 
-    <footer>
-        <p>
-            Projeto construído para fins didáticos, com o objetivo de colocar em prática os conhecimentos de HTML, CSS e
-            JavaScript aprendidos na DIO._
-        </p>
-        <img src="assets/images/footer/logo.svg" alt="">
-    </footer>
+    <script type="module" src="assets/js/main.js"></script>
 </body>
 
 </html>

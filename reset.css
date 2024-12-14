@@ -1,5 +1,15 @@
+@charset "UTF-8";
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    list-style: none;
 }
+
+p{
+    color: #000;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
